@@ -1,11 +1,7 @@
 # Experiment 9: Data Visualization Using Matplotlib
 import pandas as pd
 import matplotlib.pyplot as plt
-from google.colab import files
-# Upload CSV file
-uploaded = files.upload()
-# Read dataset
-df = pd.read_csv("experiment_9_retail_sales.csv")
+df = pd.read_csv("data_visualization.csv")
 # Convert Date column
 df["Date"] = pd.to_datetime(df["Date"])
 # Calculate revenue
