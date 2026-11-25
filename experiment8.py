@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load your local CSV file
-df = pd.read_csv("students.csv")
+df = pd.read_csv("data.csv")
 
 print("----- ORIGINAL DATASET -----")
 print(df.head())
